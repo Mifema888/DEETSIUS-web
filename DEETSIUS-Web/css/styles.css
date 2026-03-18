@@ -14,8 +14,8 @@ a {
 }
 
 /* Hover */
-a:hover {
-  color: #ff6600; /* o cualquier color que quieras */
+.nav-list li:hover a{
+    color:#ff6600;
 }
 
 /* Estado visitado */
@@ -79,14 +79,18 @@ a:focus, a:active {
 }
 
 .logo-instituciones{
-    margin-left:auto;
+    margin-left: 330px;
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:5px;
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    padding: 5px;
 }
 
 .logo-instituciones img{
-    height:40px;
+    height:30px;
     margin-right: 20px;
 }
 
@@ -113,6 +117,7 @@ a:focus, a:active {
     padding: 80px 80px;
     background-color: white;
     border-radius: 20px;
+    height: 400px;
 }
 
 .hero-texto{
@@ -120,4 +125,28 @@ a:focus, a:active {
     font-size: 2pw;
     font-family: Tahoma, sans-serif;
     text-align: center;
+}
+
+.seccion-texto{
+    color: #1e88e5;
+    font-size: 18px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.seccion-noticias{
+    display: flex;
+    gap: 20px;
+}
+
+.noticia{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    border-color: #ef6c00;
+    border-width: 2px;
+    border-style: solid;
 }
